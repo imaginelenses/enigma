@@ -1,0 +1,29 @@
+.rotor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15vh;
+    width: 5vh;
+    border-radius: 4vw;
+    background-color: grey;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 4vh;
+    font-size: 3.5vh;
+    font-weight: bold;
+    background-color: white;
+    user-select: none;
+}
+
+.button {
+    height: 4vh;
+    width: 4vh;
+    fill: lightgray;
+    cursor: pointer;
+}

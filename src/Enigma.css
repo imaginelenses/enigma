@@ -1,0 +1,72 @@
+.enigma {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.right, .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.left {
+    width: 70vw;
+}
+
+.right {
+    width: 30vw;
+    margin-right: 5vw;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 100%;
+}
+
+textarea {
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+    resize: vertical;
+    font-size: 3vh;
+    border-radius: 1vw;
+    color: black;
+    background-color: lightgrey;
+}
+
+label {
+    font-size: 3vh;
+    color: lightgrey;
+    user-select: none;
+}
+
+.logo {
+    height: 10vh;
+    user-select: none;
+}
+
+.rotorboard {
+    display: flex;
+    flex-direction: row;
+    width: 23vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}

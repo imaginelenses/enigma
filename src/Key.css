@@ -1,0 +1,15 @@
+.Key {
+    display: flex;
+    height: 7vh;
+    width: 7vh;
+    margin: 1.5vh;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 0.7vh;
+    border-color: silver;
+    border-radius: 7vh;
+    font-size: 5vh;
+    font-weight: bold;
+    user-select: none;
+}
